@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30621.155
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DicteeSChallengeCreator", "DicteeSChallengeCreator.csproj", "{52C28BA0-EB14-479B-AAE5-2FCA6B3B249C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{52C28BA0-EB14-479B-AAE5-2FCA6B3B249C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52C28BA0-EB14-479B-AAE5-2FCA6B3B249C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52C28BA0-EB14-479B-AAE5-2FCA6B3B249C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52C28BA0-EB14-479B-AAE5-2FCA6B3B249C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4550CEEB-7D0D-44B2-B7C4-61AF8569D2CA}
+	EndGlobalSection
+EndGlobal
