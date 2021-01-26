@@ -6,7 +6,44 @@
         xmlns:local="clr-namespace:DicteeSChallengeCreator"
         mc:Ignorable="d"
         Title="DicteeS Challenge Creator" Height="450" Width="800">
-    <Grid>
-        
-    </Grid>
+    <StackPanel>
+        <Label Content="Challenge Configuration" HorizontalContentAlignment="Center"></Label>
+        <DockPanel HorizontalAlignment="Stretch">
+            <Label DockPanel.Dock="Left" Content="Language:" Width="200" HorizontalContentAlignment="Center"></Label>
+            <ComboBox HorizontalAlignment="Stretch" Width="Auto">
+                <ComboBoxItem>عربية</ComboBoxItem>
+                <ComboBoxItem>English</ComboBoxItem>
+                <ComboBoxItem>Français</ComboBoxItem>
+            </ComboBox>
+        </DockPanel>
+        <Label Content="Challenge Logic" HorizontalContentAlignment="Center" ></Label>
+        <DockPanel HorizontalAlignment="Stretch">
+            <Label Content="Pass always even if answer is incorrect:"></Label>
+            <CheckBox VerticalAlignment="Center"></CheckBox>
+        </DockPanel>
+        <DockPanel HorizontalAlignment="Stretch">
+            <Label Content="Enable Score:"></Label>
+            <CheckBox VerticalAlignment="Center"></CheckBox>
+        </DockPanel>
+        <DockPanel HorizontalAlignment="Stretch">
+            <Label Content="Enable Timer:"></Label>
+            <CheckBox VerticalAlignment="Center"></CheckBox>
+        </DockPanel>
+        <DockPanel HorizontalAlignment="Stretch">
+            <Label Content="Score With Timing:"></Label>
+            <CheckBox VerticalAlignment="Center"></CheckBox>
+        </DockPanel>
+        <DockPanel HorizontalAlignment="Stretch">
+            <Label Content="Enable Correction:"></Label>
+            <CheckBox VerticalAlignment="Center"></CheckBox>
+        </DockPanel>
+        <DockPanel HorizontalAlignment="Stretch">
+            <Label Content="Attempts Limit (put 0 for unlimited attempts):"></Label>
+            <TextBox VerticalAlignment="Center"></TextBox>
+        </DockPanel>
+        <DockPanel HorizontalAlignment="Stretch">
+            <Label Content="Show Keyboard:"></Label>
+            <CheckBox VerticalAlignment="Center"></CheckBox>
+        </DockPanel>
+    </StackPanel>
 </Window>
